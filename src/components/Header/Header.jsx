@@ -19,7 +19,7 @@ const Headers = () => {
         <h1 className="logo">Vivekanand College</h1>
 
         <nav className="nav">
-          <Link to="/HomePage" className="nav-link">Home</Link>
+          <Link to="/" className="nav-link">Home</Link>
           <Link to="/AboutPage" className="nav-link">About</Link>
           <Link to="/CoursesPage" className="nav-link">Courses</Link>
           <Link to="/ContactPage" className="nav-link">Contact</Link>
@@ -36,7 +36,7 @@ const Headers = () => {
         <Link to="/AboutPage" onClick={closeMenu} className="mobile-link">About</Link>
         <Link to="/CoursesPage" onClick={closeMenu} className="mobile-link">Courses</Link>
         <Link to="/ContactPage" onClick={closeMenu} className="mobile-link">Contact</Link>
-        <Link to="/Apply" onClick={closeMenu} className="mobile-apply">Apply Now!</Link>
+        <Link to="/apply" onClick={closeMenu} className="mobile-apply">Apply Now!</Link>
       </div>
     </header>
   );

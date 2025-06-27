@@ -33,7 +33,7 @@ const App = () =>
               <Header />
               <Routes>
                 
-               <Route path="/HomePage" element={<HomePage/>}/>
+               <Route path="/" element={<HomePage/>}/>
               
               <Route path="/AboutPage" element={<AboutPage/>}/>
 
