@@ -4,9 +4,8 @@ import Footer from '../components/Footer/Footer';
 const CoursesPage = () => {
     return(
         <div className='other' id='other'>
-         
-            <h1 className='pune'>Our academic programs</h1>
-         <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
+        <h1 className='pune'>Our academic programs</h1>
+        <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
         <h2>Discover Campus Life</h2>
         <video height="400px" controls class="video"><source src="\videos\clgvid.mp4" type="video/mp4"></source></video>
         <h2>Undergraduate Programs (UG)</h2>
@@ -75,7 +74,7 @@ const CoursesPage = () => {
         <h2>Specialized & Vocational Courses</h2>
         <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
         <p class="ready">Have questions about a specific course?</p>
-         <button className='karad'><Link to="/contact">Inquire About Courses</Link> 
+         <button className='karad'><Link to="/ContactPage">Inquire About Courses</Link> 
                           
                             </button> 
                             <a herf="/ContactPage"></a>
